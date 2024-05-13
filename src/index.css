@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'SuisseIntl-Regular';
+  src: url('./assets/fonts/SuisseIntl-Regular.otf') format('opentype');
+}
+
+* {
+  @apply m-0 p-0 box-border font-suisse font-normal text-primary-sofia scroll-smooth;
+}
+
+@layer components {
+  .max-container {
+    max-width: 1468px;
+    margin: 0 auto;
+  }
+}
+
+@layer utilities {
+  .review-text {
+    @apply font-suisse text-secondary-suisse;
+  }
+}
