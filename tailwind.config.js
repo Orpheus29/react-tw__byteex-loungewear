@@ -48,9 +48,18 @@ export default {
         'primary-navy': "#01005B",
         'secondary-navy': "#2A2996",
         'thirdary-navy': "#15005B",
+        'quadrary-navy': '#1C2E58',
         'primary-border': "#EDEDED",
         'secondary-border': "#C4C4C4",
       },
+      backgroundImage: {
+        'hero1': "url('assets/images/hero-1.jpg')",
+        'hero2': "url('assets/images/hero-6.jpg')",
+        'hero3': "url('assets/images/hero-3.jpg')",
+      },
+      screens: {
+        "wide": "1465px",
+      }
     },
   },
   plugins: [],
