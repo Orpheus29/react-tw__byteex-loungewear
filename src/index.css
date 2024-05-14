@@ -11,12 +11,6 @@
   @apply m-0 p-0 box-border font-sofia font-normal text-primary-sofia scroll-smooth;
 }
 
-@layer components {
-  .max-container {
-    @apply max-w-screen-wide my-0 mx-auto flex justify-center wide:block;
-  }
-}
-
 @layer utilities {
   .review-text {
     @apply font-suisse text-secondary-suisse;
