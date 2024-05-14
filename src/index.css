@@ -26,3 +26,11 @@
   background-size: 110%;
   background-position: 0 100%;
 }
+
+.swiper-pagination-bullet-active {
+  @apply bg-primary-suisse;
+}
+
+.custom-pagination {
+  @apply text-center mt-1;
+}

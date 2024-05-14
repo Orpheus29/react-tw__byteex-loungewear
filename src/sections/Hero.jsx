@@ -24,7 +24,7 @@ export const Hero = () => {
             Don’t apologize for being comfortable.
           </h1>
 
-          <div className='wide:hidden relative mt-[17px]'>
+          <div className='wide:hidden relative mt-[17px] flex justify-center'>
             <HeroGirls />
           </div>
 
