@@ -59,6 +59,7 @@ export default {
       },
       screens: {
         "wide": "1465px",
+        "small": "388px",
       }
     },
   },
