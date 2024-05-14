@@ -18,7 +18,7 @@ export default function App() {
       <section className='max-w-screen-small my-0 mx-auto wide:max-w-screen-wide'>
         <Hero />
       </section>
-      <section className='bg-primary-bg -mt-16 wide:-mt-20'>
+      <section className='bg-gradient-to-b from-primary-bg via-transparent to-transparent -mt-16 wide:-mt-20'>
         <Benefits />
       </section>
     </main>

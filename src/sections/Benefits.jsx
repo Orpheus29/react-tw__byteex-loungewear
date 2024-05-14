@@ -12,8 +12,11 @@ import {
   brand4,
   brand5,
 } from '../assets/images/brands';
-// import { Button } from '../components';
-// import { SwiperHeroes } from '../assets/images';
+import stars from '../assets/images/stars.png';
+
+import { cart, cloud, leaf, sun_moon, waves } from '../assets/icons/benefits';
+
+import { SwiperGirls, Button } from '../components';
 
 export const Benefits = () => {
   return (
@@ -51,12 +54,11 @@ export const Benefits = () => {
       </div>
 
       <div className='wide:hidden max-w-[420px] mb-10 mx-auto pl-8'>
-        {/* <div className='flex flex-col w-[40%] h-[20%] justify-center items-center'> */}
         <Swiper
           loop
           modules={[Pagination, Autoplay]}
           autoplay={{
-            delay: 3000,
+            delay: 2000,
             disableOnInteraction: true,
             pauseOnMouseEnter: true,
           }}
@@ -107,11 +109,136 @@ export const Benefits = () => {
         <div className='custom-pagination' />
       </div>
 
-      <div className='max-w-screen-small wide:max-w-screen-wide mx-auto flex wide:justify-between gap-[101px] items-center tracking-wider wide:items-start'>
-        <div>
-          <h1 className='text-primary-navy text-4xl2 wide:text-5xl tracking-widest text-center wide:text-left mb-[25px] wide:mb-[85px]'>
+      <div className='max-w-screen-small mx-auto text-md1 wide:max-w-screen-wide flex justify-center wide:justify-between gap-[221px] items-center tracking-wider wide:items-start'>
+        <div className=''>
+          <h2 className='text-primary-navy text-4xl2 wide:text-5xl tracking-widest pl-7 text-center wide:text-left mb-[25px] wide:mb-[85px]'>
             Loungewear you can be proud of.
-          </h1>
+          </h2>
+
+          <div className='wide:hidden mt-[25px] mb-[61px] pl-16'>
+            <SwiperGirls />
+          </div>
+
+          <div className='grid justify-center wide:text-base3 gap-y-[26px] wide:gap-y-[27px] pb-[29px] wide:pb-[35px]'>
+            <p className='flex flex-col items-center justify-center'>
+              <img
+                src={cloud}
+                alt='cloud icon'
+                className='wide:hidden ml-7 mb-5 rounded-full w-[42px] h-42px]'
+              />
+              
+              <img
+                src={cart}
+                alt='cart icon'
+                className='hidden wide:block rounded-full w-[42px] h-42px]'
+              />
+
+              <h3 className='text-primary-navy text-xl2 wide:text-2xl2 tracking-widest pl-7 text-center wide:text-left mb-[25px] wide:mb-[85px]'>
+                Ethically sourced.
+              </h3>
+
+              <p className='text-center w-[264px] pl-7'>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                lobortis sapien facilisis tincidunt pellentesque. In eget ipsum
+                et felis finibus consequat.
+              </p>
+
+              <p className='w-[334px] h-[1px] bg-secondary-border opacity-50 mt-12 wide:hidden ml-7'></p>
+            </p>
+
+            <p className='flex flex-col items-center justify-center'>
+              <img
+                src={sun_moon}
+                alt='sun_moon icon'
+                className='wide:hidden ml-7 mb-5 rounded-full w-[42px] h-[42px]'
+              />
+
+              <img
+                src={leaf}
+                alt='leaf icon'
+                className='hidden wide:block ml-7 mb-5 rounded-full w-[42px] h-[42px]'
+              />
+
+              <h3 className='text-primary-navy text-xl2 wide:text-2xl2 tracking-widest pl-7 text-center wide:text-left mb-[25px] wide:mb-[85px]'>
+                Responsibly made.
+              </h3>
+
+              <p className='text-center w-[264px] pl-7'>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                lobortis sapien facilisis tincidunt pellentesque. In eget ipsum
+                et felis finibus consequat.
+              </p>
+
+              <p className='w-[334px] h-[1px] bg-secondary-border opacity-50 mt-12 wide:hidden ml-7'></p>
+            </p>
+
+            <p className='flex flex-col items-center justify-center'>
+              <img
+                src={leaf}
+                alt='leaf icon'
+                className='wide:hidden ml-7 mb-5 rounded-full w-[42px] h-[42px]'
+              />
+              <img
+                src={sun_moon}
+                alt='sun_moon icon'
+                className='hidden wide:block ml-7 mb-5 rounded-full w-[42px] h-[42px]'
+              />
+
+              <h3 className='text-primary-navy text-xl2 wide:text-2xl2 tracking-widest pl-7 text-center wide:text-left mb-[25px] wide:mb-[85px]'>
+                Made for living in.
+              </h3>
+
+              <p className='text-center w-[264px] pl-7'>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                lobortis sapien facilisis tincidunt pellentesque. In eget ipsum
+                et felis finibus consequat.
+              </p>
+
+              <p className='w-[334px] h-[1px] bg-secondary-border opacity-50 mt-12 wide:hidden ml-7'></p>
+            </p>
+
+            <p className='flex flex-col items-center justify-center'>
+              <img
+                src={waves}
+                alt='waves icon'
+                className='ml-7 mb-5 rounded-full w-[42px] h-[42px]'
+              />
+
+              <h3 className='text-primary-navy text-xl2 wide:text-2xl2 tracking-widest pl-7 text-center wide:text-left mb-[25px] wide:mb-[85px]'>
+                Unimaginably comfortable.
+              </h3>
+
+              <p className='text-center w-[264px] pl-7'>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                lobortis sapien facilisis tincidunt pellentesque. In eget ipsum
+                et felis finibus consequat.
+              </p>
+            </p>
+          </div>
+
+          <div className='wide:hidden flex flex-col items-center justify-center mt-8 mb-11 ml-7'>
+            <Button />
+
+            <div className='mt-3'>
+              <div className='flex items-center'>
+                <div className='mr-[14px]'>
+                  <img
+                    src={stars}
+                    alt='stars'
+                    className='w-[80px] h-[13px] mb-[3px]'
+                  />
+                </div>
+
+                <p className='font-suisse text-xsm1 text-secondary-suisse'>
+                  One of 500+ 5 Star Reviews Online
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className='hidden wide:block'>
+          <SwiperGirls />
         </div>
       </div>
     </div>

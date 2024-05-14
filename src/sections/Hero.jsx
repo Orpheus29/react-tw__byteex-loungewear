@@ -58,8 +58,12 @@ export const Hero = () => {
             </p>
           </div>
 
-          <div className='flex justify-center wide:justify-start mb-[31px] wide:mb-[46px]'>
+          <div className='hidden wide:flex justify-center wide:justify-start mb-[31px] wide:mb-[46px]'>
             <Button arrowMode={'-mb-[30px]'} />
+          </div>
+
+          <div className='wide:hidden flex justify-center wide:justify-start mb-[31px] wide:mb-[46px]'>
+            <Button />
           </div>
 
           <div className='relative w-[420px] bg-white flex flex-col border-[1px] border-primary-border rounded-[8px] px-3 wide:px-5 py-4 shadow-md'>
