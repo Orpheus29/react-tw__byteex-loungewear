@@ -1,4 +1,5 @@
 import {
+  Benefits,
   Header,
   Hero,
   // CustomerReviews,
@@ -12,11 +13,14 @@ import {
 
 export default function App() {
   return (
-      <main className='relative'>
-        <Header />
-        <section>
-          <Hero />
-        </section>
-      </main>
+    <main className='relative'>
+      <Header />
+      <section className='max-w-screen-small my-0 mx-auto wide:max-w-screen-wide'>
+        <Hero />
+      </section>
+      <section className='bg-primary-bg -mt-16 wide:-mt-20'>
+        <Benefits />
+      </section>
+    </main>
   );
 }

@@ -1,5 +1,7 @@
 import { Header } from "./Header";
 import { Hero } from "./Hero";
+import { Benefits } from "./Benefits";
+
 // import PopularProducts from "./PopularProducts";
 // import SuperQuality from "./SuperQuality";
 // import Services from "./Services";
@@ -11,7 +13,7 @@ import { Hero } from "./Hero";
 export {
   Header,
   Hero,
-  // PopularProducts,
+  Benefits,
   // SuperQuality,
   // Services,
   // SpecialOffer,
