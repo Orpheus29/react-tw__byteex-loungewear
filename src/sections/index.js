@@ -6,6 +6,7 @@ import { Comfort } from "./Comfort";
 import { FansComments } from "./FansComments";
 import { FAQ } from "./FAQ";
 import { Info } from "./Info";
+import { Footer } from "./Footer";
 
 export {
   Header,
@@ -16,4 +17,5 @@ export {
   FansComments,
   FAQ,
   Info,
+  Footer,
 }
