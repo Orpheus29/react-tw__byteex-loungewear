@@ -5,20 +5,38 @@ import 'swiper/css';
 
 import { Button, CommentCard } from '../components';
 import stars from '../assets/images/stars.png';
+import { customers } from '../assets/images/customers';
 import { comments } from '../constants';
 
 export const FansComments = () => {
   return (
     <div className='flex flex-col items-center'>
-      <h2 className='text-primary-navy text-4xl3 wide:text-5xl tracking-widest mb-6 wide:mb-12'>
+      <h2 className='text-primary-navy text-center text-4xl3 wide:text-5xl tracking-widest mb-6 wide:mb-12'>
         What are our fans saying?
       </h2>
 
-      <p className='wide:w-[600px] text-center mb-16'>
+      <p className='w-[370px] wide:w-[600px] text-center mb-16'>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lobortis
         sapien facilisis tincidunt pellentesque. In eget ipsum et felis finibus
         consequat. Fusce non nibh luctus.
       </p>
+
+      <div className='flex flex-wrap overflow-hidden justify-between max-w-[420px] wide:max-w-[1440px] h-[206px] wide:h-[260px] mb-[38px] wide:mb-[76px]'>
+        {customers.map((customer, index) => {
+          return (
+            <div
+              className='gap-[5px] mt-[3px] w-[102px] wide:w-[128px]'
+              key={index}
+            >
+              <img
+                src={customer}
+                alt='customer photo'
+                className='h-full'
+              />
+            </div>
+          );
+        })}
+      </div>
 
       <Swiper
         slidesPerView={'auto'}
