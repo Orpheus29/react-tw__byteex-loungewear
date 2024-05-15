@@ -30,6 +30,7 @@ export default {
       '4xl3': ['26px', '40px'],
       '5xl': ['32px', '40px'],
       '6xl': ['38px', '45px'],
+      '7xl': ['32px', '24px'],
     },
     extend: {
       fontFamily: {
@@ -55,9 +56,12 @@ export default {
       },
       backgroundImage: {
         'hero1': "url('assets/images/hero-1.jpg')",
-        'hero2': "url('assets/images/hero-6.jpg')",
+        'hero2': "url('assets/images/hero-2.jpg')",
         'hero3': "url('assets/images/hero-3.jpg')",
         'hero4': "url('assets/images/hero-4.jpg')",
+        'hero6': "url('assets/images/hero-6.jpg')",
+        'hero7': "url('assets/images/hero-7.jpg')",
+        'hero9': "url('assets/images/hero-9.jpg')",
       },
       screens: {
         "wide": "1300px",

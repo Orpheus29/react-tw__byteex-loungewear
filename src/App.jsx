@@ -5,6 +5,7 @@ import {
   Hero,
   Comfort,
   FansComments,
+  FAQ,
 } from './sections';
 
 export default function App() {
@@ -25,6 +26,9 @@ export default function App() {
       </section>
       <section className='pb-[68px] wide:pb-[109px]'>
         <FansComments />
+      </section>
+      <section className='pb-[52px] wide:pb-[88px] max-w-[1110px] mx-auto'>
+        <FAQ />
       </section>
     </main>
   );

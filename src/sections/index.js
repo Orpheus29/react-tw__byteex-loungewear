@@ -4,6 +4,7 @@ import { Benefits } from "./Benefits";
 import { About } from "./About";
 import { Comfort } from "./Comfort";
 import { FansComments } from "./FansComments";
+import { FAQ } from "./FAQ";
 
 export {
   Header,
@@ -12,4 +13,5 @@ export {
   About,
   Comfort,
   FansComments,
+  FAQ,
 }

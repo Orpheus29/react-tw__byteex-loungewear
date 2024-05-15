@@ -4,6 +4,7 @@ import { SwiperGirls } from "./SwiperGirls";
 import { AboutGirls } from "./AboutGirls";
 import { ServiceCard } from "./ServiceCard";
 import { CommentCard } from "./CommentCard";
+import { FAQGirls } from "./FAQGirls";
 
 export {
   Button,
@@ -12,4 +13,5 @@ export {
   AboutGirls,
   ServiceCard,
   CommentCard,
+  FAQGirls,
 }
