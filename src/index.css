@@ -45,6 +45,10 @@
   @apply text-center mt-1;
 }
 
+.swiper-custom-pagination {
+  @apply text-center mt-1;
+}
+
 .swiper {
   @apply overflow-hidden w-auto;
 

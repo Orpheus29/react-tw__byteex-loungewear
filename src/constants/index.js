@@ -20,3 +20,22 @@ export const services = [
     background: 'secondary-bg',
   },
 ];
+
+export const comments = [
+  {
+    name: "Jane, S.",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sed sollicitudin dolor, non sodales justo. Aenean eget aliquet mi.",
+  },
+  {
+    name: "Amy P.",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sed sollicitudin dolor, non sodales justo. Aenean eget aliquet mi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sed sollicitudin dolor, non sodales.",
+  },
+  {
+    name: "Alex, A.",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sed sollicitudin dolor, non sodales justo. Aenean eget aliquet mi.",
+  },
+  {
+    name: "Marco, G.",
+    text: "Lorem ipsum dolor sit amet, consectetur, non sodales justo. Aenean eget aliquet mi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sed sollicitudin dolor, non sodales.",
+  },
+];

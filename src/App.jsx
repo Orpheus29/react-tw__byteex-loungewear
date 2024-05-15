@@ -4,13 +4,7 @@ import {
   Header,
   Hero,
   Comfort,
-  // CustomerReviews,
-  // Footer,
-  // PopularProducts,
-  // Services,
-  // SpecialOffer,
-  // Subscribe,
-  // SuperQuality,
+  FansComments,
 } from './sections';
 
 export default function App() {
@@ -28,6 +22,9 @@ export default function App() {
       </section>
       <section className='pt-[57px] wide:pt-[75px] pb-[59px] wide:pb-[74px] max-w-[1120px] mx-auto'>
         <Comfort />
+      </section>
+      <section className='pb-[68px] wide:pb-[109px]'>
+        <FansComments />
       </section>
     </main>
   );

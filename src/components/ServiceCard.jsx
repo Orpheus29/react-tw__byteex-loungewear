@@ -6,7 +6,7 @@ export const ServiceCard = ({
 }) => {
   return (
     <div
-      className={`bg-${background} rounded-[8px] px-12 wide:px-9 py-14 wide:py-20 w-[288px] h-[288px] wide:w-full wide:h-full text-center tracking-wider`}
+      className={`bg-${background} rounded-[8px] px-12 wide:px-9 py-14 wide:py-20 w-[288px] h-[288px] wide:w-full wide:h-full border-[1px] border-primary-border text-center tracking-wider`}
     >
       <div className='flex justify-center mb-3'>
         <img
