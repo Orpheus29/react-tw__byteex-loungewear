@@ -51,6 +51,7 @@ export default {
         'quadrary-navy': '#1C2E58',
         'primary-border': "#EDEDED",
         'secondary-border': "#C4C4C4",
+        'thirdary-border': "#EAEAEA",
       },
       backgroundImage: {
         'hero1': "url('assets/images/hero-1.jpg')",
