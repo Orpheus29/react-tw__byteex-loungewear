@@ -6,6 +6,7 @@ import {
   Comfort,
   FansComments,
   FAQ,
+  Info,
 } from './sections';
 
 export default function App() {
@@ -29,6 +30,9 @@ export default function App() {
       </section>
       <section className='pb-[52px] wide:pb-[88px] max-w-[1110px] mx-auto'>
         <FAQ />
+      </section>
+      <section className='bg-secondary-bg pt-[52px] wide:pt-[39px] pb-14 wide:pb-8'>
+        <Info />
       </section>
     </main>
   );
