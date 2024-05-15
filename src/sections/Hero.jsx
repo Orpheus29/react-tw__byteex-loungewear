@@ -1,8 +1,8 @@
+import { Button, HeroGirls } from '../components';
 import logo from '../assets/images/logo.svg';
 import stars from '../assets/images/stars.png';
 import commenter from '../assets/images/commenter.png';
 import { cart, sun_moon, waves } from '../assets/icons/benefits';
-import { Button, HeroGirls } from '../components';
 
 export const Hero = () => {
   return (

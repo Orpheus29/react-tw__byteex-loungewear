@@ -1,4 +1,3 @@
-
 export const HeroGirls = () => {
   return (
     <div className='flex items-center relative w-[380px] wide:w-[725px] h-[222px] wide:h-[422px]'>

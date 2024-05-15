@@ -12,11 +12,8 @@ import {
   brand4,
   brand5,
 } from '../assets/images/brands';
-import stars from '../assets/images/stars.png';
-
+import { SwiperGirls, ButtonAndStars } from '../components';
 import { cart, cloud, leaf, sun_moon, waves } from '../assets/icons/benefits';
-
-import { SwiperGirls, Button } from '../components';
 
 export const Benefits = () => {
   return (
@@ -230,24 +227,8 @@ export const Benefits = () => {
             </div>
           </div>
 
-          <div className='wide:hidden flex flex-col items-center justify-center mt-8 mb-11 ml-7'>
-            <Button />
-
-            <div className='mt-3'>
-              <div className='flex items-center'>
-                <div className='mr-[14px]'>
-                  <img
-                    src={stars}
-                    alt='stars'
-                    className='w-[80px] h-[13px] mb-[3px]'
-                  />
-                </div>
-
-                <p className='font-suisse text-xsm1 text-secondary-suisse'>
-                  One of 500+ 5 Star Reviews Online
-                </p>
-              </div>
-            </div>
+          <div className='wide:hidden mt-8 mb-11 ml-7'>
+            <ButtonAndStars />
           </div>
         </div>
 
