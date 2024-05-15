@@ -115,11 +115,11 @@ export const Benefits = () => {
             Loungewear you can be proud of.
           </h2>
 
-          <div className='wide:hidden mt-[25px] mb-[61px] pl-16'>
+          <div className='wide:hidden mt-[25px] mb-[61px] pl-14'>
             <SwiperGirls />
           </div>
 
-          <div className='grid justify-center wide:justify-start wide:items-start wide:text-base3 gap-y-[26px] wide:gap-y-8 pb-[29px] wide:pb-0 pl-7'>
+          <div className='grid justify-center wide:justify-start wide:items-start wide:text-base3 gap-y-[26px] wide:gap-y-8 pb-[29px] wide:pb-0'>
             <div className='flex flex-col wide:flex-row wide:gap-x-[32px] items-center justify-center wide:justify-start wide:items-start'>
               <div>
                 <img
@@ -221,7 +221,7 @@ export const Benefits = () => {
                   Unimaginably comfortable.
                 </h3>
 
-                <p className='text-center w-[264px] wide:w-[497px] pl-7 wide:pl-0 wide:text-left'>
+                <p className='text-center w-[264px] wide:w-[497px] pl-7 ml-7 wide:pl-0 wide:ml-0 wide:text-left'>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
                   lobortis sapien facilisis tincidunt pellentesque. In eget
                   ipsum et felis finibus consequat.
