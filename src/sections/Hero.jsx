@@ -1,14 +1,12 @@
 import logo from '../assets/images/logo.svg';
 import stars from '../assets/images/stars.png';
 import commenter from '../assets/images/commenter.png';
-import sun_moon from '../assets/icons/benefits/sun_moon.svg';
-import cart from '../assets/icons/benefits/cart.svg';
-import waves from '../assets/icons/benefits/waves.svg';
+import { cart, sun_moon, waves } from '../assets/icons/benefits';
 import { Button, HeroGirls } from '../components';
 
 export const Hero = () => {
   return (
-    <div className='max-w-screen-small my-0 mx-auto wide:max-w-screen-wide text-sm1 text-primary-sofia pt-[14px] wide:pt-[33px]'>
+    <div className='text-sm1 text-primary-sofia pt-[14px] wide:pt-[33px]'>
       <a
         href='/'
         className='wide:-ml-2'
@@ -26,7 +24,7 @@ export const Hero = () => {
             Don’t apologize for being comfortable.
           </h1>
 
-          <div className='wide:hidden relative mt-[17px]'>
+          <div className='wide:hidden relative mt-[17px] flex justify-center'>
             <HeroGirls />
           </div>
 
@@ -60,8 +58,12 @@ export const Hero = () => {
             </p>
           </div>
 
-          <div className='flex justify-center wide:justify-start mb-[31px] wide:mb-[46px]'>
+          <div className='hidden wide:flex justify-center wide:justify-start mb-[31px] wide:mb-[46px]'>
             <Button arrowMode={'-mb-[30px]'} />
+          </div>
+
+          <div className='wide:hidden flex justify-center wide:justify-start mb-[31px] wide:mb-[46px]'>
+            <Button />
           </div>
 
           <div className='relative w-[420px] bg-white flex flex-col border-[1px] border-primary-border rounded-[8px] px-3 wide:px-5 py-4 shadow-md'>

@@ -26,3 +26,38 @@
   background-size: 110%;
   background-position: 0 100%;
 }
+
+.swiper-pagination-bullet-active {
+  @apply bg-primary-suisse;
+}
+
+.custom-pagination {
+  @apply text-center mt-1;
+}
+
+.swiper {
+  @apply overflow-hidden w-auto;
+
+  .swiper-slide {
+    @apply overflow-hidden object-cover w-auto;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    @apply text-primary-sofia;
+    --swiper-navigation-size: 25px;
+  }
+}
+
+.swiper-thumbs {
+  .swiper-slide {
+    @apply w-10 opacity-50 cursor-pointer flex justify-center;
+  }
+  .swiper-slide-thumb-active {
+    @apply opacity-100;
+  }
+}
+
+.swiper-container {
+  max-width: 303px !important;
+}
