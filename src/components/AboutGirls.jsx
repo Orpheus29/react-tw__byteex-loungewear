@@ -1,13 +1,11 @@
 export const AboutGirls = () => {
   return (
-    <div className='flex items-center relative w-[380px] wide:w-[725px] h-[222px] wide:h-[422px]'>
-      <div className='absolute w-[70px] h-[99px] wide:w-[134px] wide:h-[189px] bg-gradient-to-b from-transparent to-primary-bg' />
-      <div className='absolute bg-hero2 left-[35px] wide:left-[67px] w-[90px] h-[166px] wide:w-[209px] wide:h-[317px] bg-no-repeat bg-cover' />
+    <div className='relative w-[345px] wide:w-[524px] h-[363px] wide:h-[664px]'>
+      <div className='absolute bg-hero2 z-10 left-0 top-0 w-[102px] h-[108px] wide:w-[165px] wide:h-[175px] bg-pos-100 border-4 border-secondary-bg' />
 
-      <div className='absolute bg-hero1 z-10 left-[125px] wide:left-[240px] w-[136px] h-[221px] wide:w-[255px] wide:h-[415px] bg-pos-80 bg-no-repeat border-2 border-white' />
+      <div className='absolute bg-hero1 z-0 left-[50px] top-[25px] wide:top-[47px] wide:left-[80px] w-[238px] h-[310px] wide:w-[382px] wide:h-[570px] bg-pos-50 ' />
 
-      <div className='absolute bg-hero3 z-0 right-[35px] wide:right-[57px] w-[90px] h-[166px] bg-cover wide:w-[209px] wide:h-[317px] bg-no-repeat bg-left' />
-      <div className='absolute -z-10 right-0 w-[70px] h-[99px] wide:w-[134px] wide:h-[189px] bg-gradient-to-b from-transparent to-primary-bg' />
+      <div className='absolute bg-hero4 z-10 right-0 bottom-0 w-[110px] h-[112px] bg-cover wide:w-[129px] wide:h-[175px] bg-no-repeat bg-right wide:bg-cover border-4 border-secondary-bg' />
     </div>
   );
 };

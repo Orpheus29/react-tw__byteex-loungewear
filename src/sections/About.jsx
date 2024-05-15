@@ -2,8 +2,8 @@ import { Button, AboutGirls } from '../components';
 
 export const About = () => {
   return (
-    <div className='max-w-screen-small mx-auto text-md1 wide:max-w-screen-wide flex wide:justify-between gap-[103px] items-center tracking-wider wide:items-start'>
-      <div className='hidden wide:flex relative mt-[17px] justify-center'>
+    <div className='max-w-screen-small mx-auto pl-7 text-md1 wide:max-w-screen-wide flex wide:justify-between gap-[103px] items-center tracking-wider wide:items-start'>
+      <div className='hidden wide:flex'>
         <AboutGirls />
       </div>
 
@@ -12,11 +12,11 @@ export const About = () => {
           Be your best self.
         </h2>
 
-        <div className='wide:hidden relative mb-12'>
+        <div className='wide:hidden relative mb-12 flex justify-center'>
           <AboutGirls />
         </div>
 
-        <div className='flex flex-col gap-y-8'>
+        <div className='flex flex-col gap-y-8 pl-7 wide:pl-0 w-[335px] wide:w-full'>
           <p>Hi! My name’s [Insert Name], and I founded [Insert] in ____.</p>
 
           <p>
