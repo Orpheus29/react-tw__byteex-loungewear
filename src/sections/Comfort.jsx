@@ -3,8 +3,7 @@ import { Autoplay, Navigation } from 'swiper/modules';
 import 'swiper/css/navigation';
 import 'swiper/css';
 
-import { Button, ServiceCard } from '../components';
-import stars from '../assets/images/stars.png';
+import { ButtonAndStars, ServiceCard } from '../components';
 import { services } from '../constants';
 
 export const Comfort = () => {
@@ -47,24 +46,8 @@ export const Comfort = () => {
         ))}
       </Swiper>
 
-      <div className='flex flex-col items-center justify-center mt-10 wide:mt-14'>
-        <Button />
-
-        <div className='mt-3'>
-          <div className='flex items-center'>
-            <div className='mr-[14px]'>
-              <img
-                src={stars}
-                alt='stars'
-                className='w-[80px] h-[13px] mb-[3px]'
-              />
-            </div>
-
-            <p className='font-suisse text-xsm1 text-secondary-suisse'>
-              One of 500+ 5 Star Reviews Online
-            </p>
-          </div>
-        </div>
+      <div className='mt-10 wide:mt-14'>
+        <ButtonAndStars />
       </div>
     </div>
   );

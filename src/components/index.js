@@ -5,6 +5,7 @@ import { AboutGirls } from "./AboutGirls";
 import { ServiceCard } from "./ServiceCard";
 import { CommentCard } from "./CommentCard";
 import { FAQGirls } from "./FAQGirls";
+import { ButtonAndStars } from "./ButtonAndStars";
 
 export {
   Button,
@@ -14,4 +15,5 @@ export {
   ServiceCard,
   CommentCard,
   FAQGirls,
+  ButtonAndStars,
 }
