@@ -1,4 +1,4 @@
-import { Button, ButtonAndStars, FooterGirls } from '../components';
+import { BottomInfo, Button, ButtonAndStars, FooterGirls } from '../components';
 import payment from '../assets/images/payment-systems.png';
 
 export const Footer = () => {
@@ -35,6 +35,8 @@ export const Footer = () => {
           className='w-[364px] h-[22px] mt-[6px] mb-[18px]'
         />
       </div>
+
+      <BottomInfo />
     </div>
   );
 };
