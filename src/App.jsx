@@ -3,6 +3,7 @@ import {
   Benefits,
   Header,
   Hero,
+  Comfort,
   // CustomerReviews,
   // Footer,
   // PopularProducts,
@@ -24,6 +25,9 @@ export default function App() {
       </section>
       <section className='bg-secondary-bg pt-10 wide:pt-[83px] pb-14'>
         <About />
+      </section>
+      <section className='pt-[57px] wide:pt-[75px] pb-[59px] wide:pb-[74px] max-w-[1120px] mx-auto'>
+        <Comfort />
       </section>
     </main>
   );
