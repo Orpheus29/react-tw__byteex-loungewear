@@ -7,6 +7,7 @@ import {
   FansComments,
   FAQ,
   Info,
+  Footer,
 } from './sections';
 
 export default function App() {
@@ -33,6 +34,9 @@ export default function App() {
       </section>
       <section className='bg-secondary-bg pt-[52px] wide:pt-[39px] pb-14 wide:pb-8'>
         <Info />
+      </section>
+      <section className='bg-gradient-to-b from-transparent via-transparent to-primary-bg py-[56px] wide:py-[83px]'>
+        <Footer />
       </section>
     </main>
   );

@@ -6,7 +6,8 @@ import { ServiceCard } from "./ServiceCard";
 import { CommentCard } from "./CommentCard";
 import { FAQGirls } from "./FAQGirls";
 import { ButtonAndStars } from "./ButtonAndStars";
-import { InfoCard } from "./InfoCard";
+import { FooterGirls } from "./FooterGirls";
+import { BottomInfo } from "./BottomInfo";
 
 export {
   Button,
@@ -17,5 +18,6 @@ export {
   CommentCard,
   FAQGirls,
   ButtonAndStars,
-  InfoCard,
+  FooterGirls,
+  BottomInfo,
 }

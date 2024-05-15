@@ -61,6 +61,7 @@ export default {
         'hero4': "url('assets/images/hero-4.jpg')",
         'hero6': "url('assets/images/hero-6.jpg')",
         'hero7': "url('assets/images/hero-7.jpg')",
+        'hero8': "url('assets/images/hero-8.jpg')",
         'hero9': "url('assets/images/hero-9.jpg')",
       },
       screens: {
