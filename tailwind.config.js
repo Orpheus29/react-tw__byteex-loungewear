@@ -58,7 +58,7 @@ export default {
         'hero3': "url('assets/images/hero-3.jpg')",
       },
       screens: {
-        "wide": "1465px",
+        "wide": "1300px",
         "small": "388px",
       }
     },

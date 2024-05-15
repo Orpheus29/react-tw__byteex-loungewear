@@ -109,8 +109,8 @@ export const Benefits = () => {
         <div className='custom-pagination' />
       </div>
 
-      <div className='max-w-screen-small mx-auto text-md1 wide:max-w-screen-wide flex justify-center wide:justify-between gap-[221px] items-center tracking-wider wide:items-start'>
-        <div className=''>
+      <div className='max-w-screen-small mx-auto text-md1 wide:max-w-screen-wide flex justify-center wide:justify-between gap-[217px] items-center tracking-widest wide:items-start'>
+        <div>
           <h2 className='text-primary-navy text-4xl2 wide:text-5xl tracking-widest pl-7 text-center wide:text-left mb-[25px] wide:mb-[85px]'>
             Loungewear you can be proud of.
           </h2>
@@ -119,101 +119,115 @@ export const Benefits = () => {
             <SwiperGirls />
           </div>
 
-          <div className='grid justify-center wide:text-base3 gap-y-[26px] wide:gap-y-[27px] pb-[29px] wide:pb-[35px]'>
-            <p className='flex flex-col items-center justify-center'>
-              <img
-                src={cloud}
-                alt='cloud icon'
-                className='wide:hidden ml-7 mb-5 rounded-full w-[42px] h-42px]'
-              />
-              
-              <img
-                src={cart}
-                alt='cart icon'
-                className='hidden wide:block rounded-full w-[42px] h-42px]'
-              />
+          <div className='grid justify-center wide:justify-start wide:items-start wide:text-base3 gap-y-[26px] wide:gap-y-8 pb-[29px] wide:pb-0 pl-7'>
+            <div className='flex flex-col wide:flex-row wide:gap-x-[32px] items-center justify-center wide:justify-start wide:items-start'>
+              <div>
+                <img
+                  src={cloud}
+                  alt='cloud icon'
+                  className='wide:hidden ml-7 mb-5 rounded-full w-[42px] h-42px]'
+                />
 
-              <h3 className='text-primary-navy text-xl2 wide:text-2xl2 tracking-widest pl-7 text-center wide:text-left mb-[25px] wide:mb-[85px]'>
-                Ethically sourced.
-              </h3>
+                <img
+                  src={cart}
+                  alt='cart icon'
+                  className='hidden wide:block rounded-full w-[42px] h-42px] -mt-2'
+                />
+              </div>
 
-              <p className='text-center w-[264px] pl-7'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                lobortis sapien facilisis tincidunt pellentesque. In eget ipsum
-                et felis finibus consequat.
-              </p>
+              <div>
+                <h3 className='text-primary-navy text-xl2 wide:text-2xl2 tracking-widest pl-7 wide:pl-0 text-center wide:text-left mb-[25px] wide:mb-[14px]'>
+                  Ethically sourced.
+                </h3>
 
-              <p className='w-[334px] h-[1px] bg-secondary-border opacity-50 mt-12 wide:hidden ml-7'></p>
-            </p>
-
-            <p className='flex flex-col items-center justify-center'>
-              <img
-                src={sun_moon}
-                alt='sun_moon icon'
-                className='wide:hidden ml-7 mb-5 rounded-full w-[42px] h-[42px]'
-              />
-
-              <img
-                src={leaf}
-                alt='leaf icon'
-                className='hidden wide:block ml-7 mb-5 rounded-full w-[42px] h-[42px]'
-              />
-
-              <h3 className='text-primary-navy text-xl2 wide:text-2xl2 tracking-widest pl-7 text-center wide:text-left mb-[25px] wide:mb-[85px]'>
-                Responsibly made.
-              </h3>
-
-              <p className='text-center w-[264px] pl-7'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                lobortis sapien facilisis tincidunt pellentesque. In eget ipsum
-                et felis finibus consequat.
-              </p>
+                <p className='text-center w-[264px] wide:w-[497px] pl-7 wide:pl-0 wide:text-left'>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                  lobortis sapien facilisis tincidunt pellentesque. In eget
+                  ipsum et felis finibus consequat.
+                </p>
+              </div>
 
               <p className='w-[334px] h-[1px] bg-secondary-border opacity-50 mt-12 wide:hidden ml-7'></p>
-            </p>
+            </div>
 
-            <p className='flex flex-col items-center justify-center'>
-              <img
-                src={leaf}
-                alt='leaf icon'
-                className='wide:hidden ml-7 mb-5 rounded-full w-[42px] h-[42px]'
-              />
-              <img
-                src={sun_moon}
-                alt='sun_moon icon'
-                className='hidden wide:block ml-7 mb-5 rounded-full w-[42px] h-[42px]'
-              />
+            <div className='flex flex-col wide:flex-row wide:gap-x-[32px] items-center justify-center wide:justify-start wide:items-start'>
+              <div>
+                <img
+                  src={sun_moon}
+                  alt='sun_moon icon'
+                  className='wide:hidden ml-7 mb-5 rounded-full w-[42px] h-[42px]'
+                />
 
-              <h3 className='text-primary-navy text-xl2 wide:text-2xl2 tracking-widest pl-7 text-center wide:text-left mb-[25px] wide:mb-[85px]'>
-                Made for living in.
-              </h3>
+                <img
+                  src={leaf}
+                  alt='leaf icon'
+                  className='hidden wide:block rounded-full w-[42px] h-42px] -mt-2'
+                />
+              </div>
 
-              <p className='text-center w-[264px] pl-7'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                lobortis sapien facilisis tincidunt pellentesque. In eget ipsum
-                et felis finibus consequat.
-              </p>
+              <div>
+                <h3 className='text-primary-navy text-xl2 wide:text-2xl2 tracking-widest pl-7 wide:pl-0 text-center wide:text-left mb-[25px] wide:mb-[14px]'>
+                  Responsibly made.
+                </h3>
 
+                <p className='text-center w-[264px] wide:w-[497px] pl-7 wide:pl-0 wide:text-left'>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                  lobortis sapien facilisis tincidunt pellentesque. In eget
+                  ipsum et felis finibus consequat.
+                </p>
+              </div>
               <p className='w-[334px] h-[1px] bg-secondary-border opacity-50 mt-12 wide:hidden ml-7'></p>
-            </p>
+            </div>
 
-            <p className='flex flex-col items-center justify-center'>
-              <img
-                src={waves}
-                alt='waves icon'
-                className='ml-7 mb-5 rounded-full w-[42px] h-[42px]'
-              />
+            <div className='flex flex-col wide:flex-row wide:gap-x-[32px] items-center justify-center wide:justify-start wide:items-start'>
+              <div>
+                <img
+                  src={leaf}
+                  alt='leaf icon'
+                  className='wide:hidden ml-7 mb-5 rounded-full w-[42px] h-[42px]'
+                />
+                <img
+                  src={sun_moon}
+                  alt='sun_moon icon'
+                  className='hidden wide:block rounded-full w-[42px] h-42px] -mt-2'
+                />
+              </div>
 
-              <h3 className='text-primary-navy text-xl2 wide:text-2xl2 tracking-widest pl-7 text-center wide:text-left mb-[25px] wide:mb-[85px]'>
-                Unimaginably comfortable.
-              </h3>
+              <div>
+                <h3 className='text-primary-navy text-xl2 wide:text-2xl2 tracking-widest pl-7 wide:pl-0 text-center wide:text-left mb-[25px] wide:mb-[14px]'>
+                  Made for living in.
+                </h3>
 
-              <p className='text-center w-[264px] pl-7'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                lobortis sapien facilisis tincidunt pellentesque. In eget ipsum
-                et felis finibus consequat.
-              </p>
-            </p>
+                <p className='text-center w-[264px] wide:w-[497px] pl-7 wide:pl-0 wide:text-left'>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                  lobortis sapien facilisis tincidunt pellentesque. In eget
+                  ipsum et felis finibus consequat.
+                </p>
+              </div>
+              <p className='w-[334px] h-[1px] bg-secondary-border opacity-50 mt-12 wide:hidden ml-7'></p>
+            </div>
+
+            <div className='flex flex-col wide:flex-row wide:gap-x-[32px] items-center justify-center wide:justify-start wide:items-start'>
+              <div>
+                <img
+                  src={waves}
+                  alt='waves icon'
+                  className='ml-7 mb-5 rounded-full w-[42px] h-[42px] wide:ml-0 wide:-mt-2'
+                />
+              </div>
+
+              <div>
+                <h3 className='text-primary-navy text-xl2 wide:text-2xl2 tracking-widest pl-7 wide:pl-0 text-center wide:text-left mb-[25px] wide:mb-[14px]'>
+                  Unimaginably comfortable.
+                </h3>
+
+                <p className='text-center w-[264px] wide:w-[497px] pl-7 wide:pl-0 wide:text-left'>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                  lobortis sapien facilisis tincidunt pellentesque. In eget
+                  ipsum et felis finibus consequat.
+                </p>
+              </div>
+            </div>
           </div>
 
           <div className='wide:hidden flex flex-col items-center justify-center mt-8 mb-11 ml-7'>
