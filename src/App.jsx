@@ -1,4 +1,5 @@
 import {
+  About,
   Benefits,
   Header,
   Hero,
@@ -20,6 +21,9 @@ export default function App() {
       </section>
       <section className='bg-gradient-to-b from-primary-bg via-transparent to-transparent -mt-16 wide:-mt-20'>
         <Benefits />
+      </section>
+      <section className='bg-secondary-bg pt-10 wide:pt-[83px] pb-14'>
+        <About />
       </section>
     </main>
   );
