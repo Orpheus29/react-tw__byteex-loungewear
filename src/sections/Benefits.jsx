@@ -5,14 +5,8 @@ import 'swiper/css/navigation';
 import 'swiper/css/thumbs';
 import 'swiper/css';
 
-import {
-  brand1,
-  brand2,
-  brand3,
-  brand4,
-  brand5,
-} from '../assets/images/brands';
-import { SwiperGirls, ButtonAndStars } from '../components';
+import { brands } from '../constants';
+import { SwiperGirls, ButtonAndStars, BrandCard } from '../components';
 import { cart, cloud, leaf, sun_moon, waves } from '../assets/icons/benefits';
 
 export const Benefits = () => {
@@ -21,31 +15,12 @@ export const Benefits = () => {
       <p className='text-base1 wide:text-xl1 text-center mb-4'>as seen in</p>
 
       <div className='hidden wide:flex h-[54px] mb-[110px] justify-between items-center'>
-        <img
-          src={brand1}
-          alt='brand1 logo'
-          className='w-[178px] h-[22px]'
-        />
-        <img
-          src={brand2}
-          alt='brand2 logo'
-          className='w-[111px] h-[52px]'
-        />
-        <img
-          src={brand3}
-          alt='brand3 logo'
-          className='w-[271px] h-[53px]'
-        />
-        <img
-          src={brand4}
-          alt='brand4 logo'
-          className='w-[194px] h-[37px]'
-        />
-        <img
-          src={brand5}
-          alt='brand5 logo'
-          className='w-[192px] h-[58px]'
-        />
+        {brands.map((brand) => (
+          <BrandCard
+            key={brand.label}
+            {...brand}
+          />
+        ))}
       </div>
 
       <div className='wide:hidden max-w-[420px] mb-10 mx-auto'>
@@ -65,40 +40,14 @@ export const Benefits = () => {
             clickable: true,
           }}
         >
-          <SwiperSlide>
-            <img
-              src={brand1}
-              alt='brand1 logo'
-              className='py-4'
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img
-              src={brand2}
-              alt='brand2 logo'
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img
-              src={brand3}
-              alt='brand3 logo'
-              className='py-3'
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img
-              src={brand4}
-              alt='brand4 logo'
-              className='py-3'
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img
-              src={brand5}
-              alt='brand5 logo'
-              className='py-1'
-            />
-          </SwiperSlide>
+          {brands.map((brand, index) => (
+            <SwiperSlide key={index}>
+              <BrandCard
+                key={brand.label}
+                {...brand}
+              />
+            </SwiperSlide>
+          ))}
         </Swiper>
 
         <div className='custom-pagination' />

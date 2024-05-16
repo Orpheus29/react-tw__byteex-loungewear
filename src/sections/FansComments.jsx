@@ -9,7 +9,7 @@ import { comments } from '../constants';
 
 export const FansComments = () => {
   return (
-    <div className='flex flex-col items-center'>
+    <div className='flex flex-col items-center justify-center'>
       <h2 className='text-primary-navy text-center text-4xl3 wide:text-5xl tracking-widest mb-6 wide:mb-10'>
         What are our fans saying?
       </h2>
@@ -20,7 +20,7 @@ export const FansComments = () => {
         consequat. Fusce non nibh luctus.
       </p>
 
-      <div className='flex flex-wrap overflow-hidden justify-between max-w-[420px] wide:max-w-[1440px] h-[206px] wide:h-[260px] mb-[38px] wide:mb-[76px]'>
+      <div className='flex flex-wrap overflow-hidden justify-between max-w-[420px] min-w-[420px] wide:max-w-[1440px] max-h-[206px] wide:max-h-[260px] mb-[38px] wide:mb-[76px]'>
         {customers.map((customer, index) => {
           return (
             <div

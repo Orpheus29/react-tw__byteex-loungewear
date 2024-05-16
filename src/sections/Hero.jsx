@@ -1,8 +1,8 @@
-import { Button, HeroGirls } from '../components';
+import { AdvantageCard, Button, HeroGirls } from '../components';
 import logo from '../assets/images/logo.svg';
 import stars from '../assets/images/stars.png';
 import commenter from '../assets/images/commenter.png';
-import { cart, sun_moon, waves } from '../assets/icons/benefits';
+import { advantages } from '../constants';
 
 export const Hero = () => {
   return (
@@ -18,7 +18,7 @@ export const Hero = () => {
         />
       </a>
 
-      <div className='flex wide:justify-between gap-[101px] items-center tracking-wider wide:items-start'>
+      <div className='flex justify-center wide:justify-between gap-[101px] items-center tracking-wider wide:items-start'>
         <div>
           <h1 className='text-primary-navy text-4xl2 wide:text-6xl tracking-widest text-center wide:text-left'>
             Don’t apologize for being comfortable.
@@ -29,33 +29,12 @@ export const Hero = () => {
           </div>
 
           <div className='grid wide:text-base3 gap-y-[26px] wide:gap-y-[17px] px-[47px] wide:px-0 pt-[25px] wide:pt-[32px] pb-[29px] wide:pb-[35px]'>
-            <p className='flex items-center'>
-              <img
-                src={sun_moon}
-                alt='sun_moon icon'
-                className='mr-3 rounded-full w-[31px] h-[31px]'
+            {advantages.map((advantage) => (
+              <AdvantageCard
+                key={advantage.label}
+                {...advantage}
               />
-              Beautiful, comfortable loungewear for day or night.
-            </p>
-
-            <p className='flex items-center'>
-              <img
-                src={cart}
-                alt='sun_moon icon'
-                className='mr-3 rounded-full w-[31px] h-[31px]'
-              />
-              No wasteful extras, like tags or plastic packaging.
-            </p>
-
-            <p className='flex items-center'>
-              <img
-                src={waves}
-                alt='sun_moon icon'
-                className='mr-3 rounded-full w-[31px] h-[31px]'
-              />
-              Our signature fabric is incredibly comfortable — unlike anything
-              you’ve ever felt.
-            </p>
+            ))}
           </div>
 
           <div className='hidden wide:flex justify-center wide:justify-start mb-[31px] wide:mb-[46px]'>

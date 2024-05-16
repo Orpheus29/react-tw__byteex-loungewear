@@ -15,7 +15,7 @@ export const FAQ = () => {
   return (
     <div className='flex flex-col wide:flex-row wide:justify-between wide:gap-[88px] items-center tracking-wider wide:items-start text-md2 wide:text-base2'>
       <div>
-        <h2 className='text-primary-navy w-[318px] wide:w-full text-4xl3 wide:text-5xl tracking-widest text-center wide:text-left lowercase wide:normal-case mb-10'>
+        <h2 className='text-primary-navy max-w-[318px] mx-auto wide:w-full text-4xl3 wide:text-5xl tracking-widest text-center wide:text-left lowercase wide:normal-case mb-10'>
           Frequently asked questions.
         </h2>
 

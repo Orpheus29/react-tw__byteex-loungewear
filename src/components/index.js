@@ -1,5 +1,7 @@
 import { Button } from "./Button";
 import { HeroGirls } from "./HeroGirls";
+import { AdvantageCard } from "./AdvantageCard";
+import { BrandCard } from "./BrandCard";
 import { SwiperGirls } from "./SwiperGirls";
 import { AboutGirls } from "./AboutGirls";
 import { ServiceCard } from "./ServiceCard";
@@ -12,6 +14,8 @@ import { BottomInfo } from "./BottomInfo";
 export {
   Button,
   HeroGirls,
+  AdvantageCard,
+  BrandCard,
   SwiperGirls,
   AboutGirls,
   ServiceCard,
