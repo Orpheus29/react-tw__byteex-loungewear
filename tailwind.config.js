@@ -66,7 +66,7 @@ export default {
       },
       screens: {
         "wide": "1300px",
-        "small": "388px",
+        "small": "380px",
       }
     },
   },

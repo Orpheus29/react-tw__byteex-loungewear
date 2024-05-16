@@ -1,6 +1,6 @@
 export const Header = () => {
   return (
-    <div className='flex bg-primary-bg justify-center text-xxsm2 text-primary-suisse tracking-widest gap-2'>
+    <div className='max-w-screen-wide my-0 mx-auto flex justify-center text-xxsm2 text-primary-suisse tracking-widest gap-2'>
       <p className='hidden wide:inline font-suisse'>
         CONSCIOUSLY MADE BUTTER SOFT STAPLES FOR EVERY DAY (OR NIGHT)
       </p>

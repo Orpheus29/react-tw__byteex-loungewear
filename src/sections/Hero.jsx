@@ -66,7 +66,7 @@ export const Hero = () => {
             <Button />
           </div>
 
-          <div className='relative w-[420px] bg-white flex flex-col border-[1px] border-primary-border rounded-[8px] px-3 wide:px-5 py-4 shadow-md'>
+          <div className='relative w-full bg-white flex flex-col border-[1px] border-primary-border rounded-[8px] px-3 wide:px-5 py-4 shadow-md'>
             <div className='flex mb-3 items-center'>
               <img
                 src={commenter}

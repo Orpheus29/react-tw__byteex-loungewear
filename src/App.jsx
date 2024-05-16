@@ -13,8 +13,10 @@ import {
 export default function App() {
   return (
     <main className='relative'>
-      <Header />
-      <section className='max-w-screen-small my-0 mx-auto wide:max-w-screen-wide'>
+      <section className='bg-primary-bg'>
+        <Header />
+      </section>
+      <section className='max-w-screen-small wide:max-w-screen-wide mx-auto'>
         <Hero />
       </section>
       <section className='bg-gradient-to-b from-primary-bg via-transparent to-transparent -mt-16 wide:-mt-20'>

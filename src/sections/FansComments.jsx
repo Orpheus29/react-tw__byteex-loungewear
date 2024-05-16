@@ -10,11 +10,11 @@ import { comments } from '../constants';
 export const FansComments = () => {
   return (
     <div className='flex flex-col items-center'>
-      <h2 className='text-primary-navy text-center text-4xl3 wide:text-5xl tracking-widest mb-6 wide:mb-12'>
+      <h2 className='text-primary-navy text-center text-4xl3 wide:text-5xl tracking-widest mb-6 wide:mb-10'>
         What are our fans saying?
       </h2>
 
-      <p className='w-[370px] wide:w-[600px] text-center mb-16'>
+      <p className='w-[370px] wide:w-[600px] text-center mb-10 wide:mb-14'>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lobortis
         sapien facilisis tincidunt pellentesque. In eget ipsum et felis finibus
         consequat. Fusce non nibh luctus.
